@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd98ebbf58da40c79e0ce1ccc004eeb5" Name="Diagram1" ZoomLevel="101">
+        <EntityTypeShape EntityType="DbisTakipModel.TblAdmin" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblDepartmanlar" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblFirmalar" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblGörevDetay" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblGörevler" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblPersonel" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblPersonel_TblDepartmanlar" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblGörevDetay_TblGörevler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblGörevler_TblPersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblGörevler_TblPersonel1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblCagrilar" Width="1.5" PointX="5" PointY="5.125" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblCagrilar_TblFirmalar" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblCagriDetay" Width="1.5" PointX="7.25" PointY="5.375" />
+        <EntityTypeShape EntityType="DbisTakipModel.TblMesajlar" Width="1.5" PointX="5" PointY="8.75" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblMesajlar_TblFirmalar" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblMesajlar_TblFirmalar1" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblCagriDetay_TblCagrilar1" />
+        <AssociationConnector Association="DbisTakipModel.FK_TblCagrilar_TblPersonel" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
