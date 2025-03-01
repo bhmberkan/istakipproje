@@ -79,6 +79,7 @@ Ayrıca web arayüzü bulunmaktadır. ASP.NET mcv kullanılarak geliştirilmişt
 <br>
 
 ![image](https://github.com/user-attachments/assets/243101d7-f569-4151-b8d6-9c07f8a3d42a)
+<br>
 Doğrudan bu panel üzerinden ekleme silme güncelleme gibi işlemler yapılabilmektedir.
 <br>
 Doğrudan ilgili kısmın üzerine tıklanarak güncelleme işlemi yapılabilmektedir. 
