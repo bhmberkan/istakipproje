@@ -80,12 +80,15 @@ Ayrıca web arayüzü bulunmaktadır. ASP.NET mcv kullanılarak geliştirilmişt
 
 ![image](https://github.com/user-attachments/assets/243101d7-f569-4151-b8d6-9c07f8a3d42a)
 <br>
+<br>
 Doğrudan bu panel üzerinden ekleme silme güncelleme gibi işlemler yapılabilmektedir.
 <br>
 Doğrudan ilgili kısmın üzerine tıklanarak güncelleme işlemi yapılabilmektedir. 
 <br>
 Search işlemi için ctr+F tuşu yardımı ile ilgili sekme açılarak arama işlemi sağlanmaktadır.
 <br>
+<br>
+
 ![image](https://github.com/user-attachments/assets/4d910837-565f-4644-ad29-6e9f21677203)
 <br>
 
